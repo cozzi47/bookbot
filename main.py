@@ -27,10 +27,6 @@ def get_character_count(text):
     return count
     
 
-#def sort_on(character_count):
-    return character_count["count"]
-    
-    
 def get_letter_report(book_path, word_count, character_count):
     letters = []
     for character in character_count:
@@ -47,8 +43,6 @@ def get_letter_report(book_path, word_count, character_count):
     print(f"--- End report ---")
     
     
-
-
 main()
 
 
